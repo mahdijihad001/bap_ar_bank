@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bank{
+    background: linear-gradient(#e66465, #9198e5);
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.account_items{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: #ffffff;
+}
+.account_item{
+    background-color: #6580ad;
+    padding: 20px 100px 20px 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.account_item h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.account_item h3{
+    font-size: 60px;
+}
+.account{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap: 50px;
+    /* width: 100%; */
+}
+.account_item_with{
+    display: flex;
+    flex-direction: column;
+    background-color: #9198e5;
+    padding: 20px 100px 20px 20px;
+    border-radius: 10px;
+}
+.wc_item{
+    width: 100%;
+}
+.account_item_with h1{
+    text-align: left;
+    font: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.account_item_with input{
+    outline: none;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+.account_item_with button {
+    text-align: center;
+    display: inline;
+    width: 100px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: #1212;
+    transition: all linear 0.5s;
+}
+.account_item_with button:hover{
+    background-color: #555cb1;
+}

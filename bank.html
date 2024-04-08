@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank html</title>
+    <link rel="stylesheet" href="css/bank.css">
+</head>
+
+<body>
+
+
+
+
+    <section class="bank">
+        <div class="container">
+            <h1 class="heading">Your account Information</h1>
+
+            <div class="account_items">
+                <div class="account_item">
+                    <h2>Diposit</h2>
+                    <h3>$<span id="diposit_text">00</span></h3>
+                </div>
+                <div class="account_item">
+                    <h2>Withdraw</h2>
+                    <h3>$<span id="withdrow_ammount">00</span></h3>
+                </div>
+                <div class="account_item">
+                    <h2>Balance</h2>
+                    <h3>$<span id="balance_amount">500</span></h3>
+                </div>
+            </div>
+            <div class="account">
+
+                <div class="wc_item">
+                    <div class="account_item_with">
+                        <h1>Please Diposit</h1>
+                        <input type="number" placeholder="Ammount You Want To Diposit" id="diposit_fild">
+                        <button id="diposit_btn">Diposit</button>
+                    </div>
+                </div>
+                <div class="wc_item">
+                    <div class="account_item_with">
+                        <h1>Please Withdraw</h1>
+                        <input type="number" placeholder="Ammount You Want To Withdrow" id="Withdraw_fild">
+                        <button id="withdrow_btn">Withdraw</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/bank.js"></script>
+
+</body>
+
+</html>
